@@ -5,7 +5,7 @@
 **Requires at least:** 4.7  
 **Tested up to:** 6.6.2  
 **Requires PHP:** 7.4  
-**Stable tag:** 0.0.0  
+**Stable tag:** 2.0.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -52,7 +52,7 @@ Append the `--network` flag to include multisite bundles.
 
 ### Filters ###
 
-See the filters reference page at the [GitHub Wiki](https://github.com/forumone/wp-cfm/wiki/Filters-Reference).
+See the filters reference page at the [GitHub Wiki](https://github.com/forumone/wp-cfm-dist/wiki/Filters-Reference).
 
 
 ## Installation ##
@@ -72,7 +72,7 @@ See the filters reference page at the [GitHub Wiki](https://github.com/forumone/
 
 ### Composer ###
 
-1. Run `composer require forumone/openid-connect-wp` to add to your Composer-based site.
+1. Run `composer require forumone/wp-cfm` to add to your Composer-based site.
 
 ## Frequently Asked Questions ##
 
@@ -83,14 +83,4 @@ See the filters reference page at the [GitHub Wiki](https://github.com/forumone/
 
 ## Changelog ##
 
-<!-- [START AUTO UPDATE] -->
-<!-- Please keep comment here to allow auto-update -->
-### 1.7.10 ###
-### :bug: Bug Fixes
-- [](https://github.com/forumone/wp-cfm/commit/2304a6c5e4fe7c42f306af08c3fabd1de141bff5) - **Assets**: Fixes missing asset updates *(PR #177 by @timnolte)*
-  - :arrow_lower_right: *fixes issue #176 opened by @tych095*
-<!-- [END AUTO UPDATE] -->
-
---------
-
-[See the previous changelogs here](https://github.com/forumone/wp-cfm/blob/main/CHANGELOG.md#changelog)
+[See the previous changelogs here](https://github.com/forumone/wp-cfm-dist/blob/main/CHANGELOG.md#changelog)

@@ -53,7 +53,6 @@
   },
   "require": {
     "php": ">=7.4",
-    "cweagans/composer-patches": "^1.7",
     "symfony/yaml": "^5.4"
   },
   "require-dev": {
@@ -102,9 +101,6 @@
     "analyze": "@phpstan analyze"
   },
   "extra": {
-    "composer-exit-on-patch-failure": true,
-    "patches": {
-    },
     "wordpress-install-dir": "tools/local-env/wp",
     "installer-paths": {
       "tools/local-env/wp-content/plugins/{$name}": [

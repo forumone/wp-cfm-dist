@@ -13,9 +13,9 @@
  * Plugin Name:       WP-CFM
  * Plugin URI:        https://github.com/forumone/wp-cfm-dist
  * Description:       WordPress Configuration Management
- * Version:           2.0.1
+ * Version:           3.0.0
  * Requires at least: 5.0
- * Requires PHP:      7.4
+ * Requires PHP:      8.2
  * Author:            forum1
  * Author URI:        http://forumone.com/
  * Text Domain:       wp-cfm
@@ -29,14 +29,12 @@
 
 defined( 'ABSPATH' ) or exit;
 
-if ( PHP_VERSION_ID >= 50604 ) {
-	require_once __DIR__ . '/vendor/autoload.php';
-}
+require_once __DIR__ . '/vendor/autoload.php';
 
 class WPCFM_Core {
 
 
-	const VERSION = '2.0.1';
+	const VERSION = '3.0.0';
 	public $readwrite;
 	public $registry;
 	public $options;
@@ -85,12 +83,7 @@ class WPCFM_Core {
 
 		define( 'WPCFM_CONFIG_DIR', apply_filters( 'wpcfm_config_dir', $config_dir ) );
 		define( 'WPCFM_CONFIG_URL', apply_filters( 'wpcfm_config_url', $config_url ) );
-		if ( PHP_VERSION_ID < 50604 ) {
-			define( 'WPCFM_CONFIG_FORMAT', 'json' );
-			define( 'WPCFM_CONFIG_FORMAT_REQUESTED', apply_filters( 'wpcfm_config_format', 'json' ) );
-		} else {
-			define( 'WPCFM_CONFIG_FORMAT', apply_filters( 'wpcfm_config_format', 'json' ) );
-		}
+		define( 'WPCFM_CONFIG_FORMAT', apply_filters( 'wpcfm_config_format', 'json' ) );
 		define( 'WPCFM_CONFIG_USE_YAML_DIFF', apply_filters( 'wpcfm_config_use_yaml_diff', true ) );
 		define( 'WPCFM_URL', plugins_url( '', __FILE__ ) );
 

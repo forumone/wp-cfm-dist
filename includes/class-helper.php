@@ -44,7 +44,6 @@ class WPCFM_Helper {
 	/**
 	 * Get bundle URL
 	 */
-
 	function get_bundle_url( $bundle_name ) {
 		return WPCFM_CONFIG_URL . '/' . basename( WPCFM()->readwrite->bundle_filename( $bundle_name ) );
 	}

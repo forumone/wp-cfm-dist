@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85
+class ComposerStaticInit1aa5315a61e42940d6797dd53af8e784
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -26,7 +26,8 @@ class ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85
     public static $prefixDirsPsr4 = array (
         'cweagans\\Composer\\' => 
         array (
-            0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+            0 => __DIR__ . '/..' . '/cweagans/composer-configurable-plugin/src',
+            1 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
@@ -49,21 +50,60 @@ class ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85
         'Symfony\\Component\\Yaml\\Exception\\RuntimeException' => __DIR__ . '/..' . '/symfony/yaml/Exception/RuntimeException.php',
         'Symfony\\Component\\Yaml\\Inline' => __DIR__ . '/..' . '/symfony/yaml/Inline.php',
         'Symfony\\Component\\Yaml\\Parser' => __DIR__ . '/..' . '/symfony/yaml/Parser.php',
+        'Symfony\\Component\\Yaml\\ParserState' => __DIR__ . '/..' . '/symfony/yaml/ParserState.php',
         'Symfony\\Component\\Yaml\\Tag\\TaggedValue' => __DIR__ . '/..' . '/symfony/yaml/Tag/TaggedValue.php',
         'Symfony\\Component\\Yaml\\Unescaper' => __DIR__ . '/..' . '/symfony/yaml/Unescaper.php',
         'Symfony\\Component\\Yaml\\Yaml' => __DIR__ . '/..' . '/symfony/yaml/Yaml.php',
         'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
-        'cweagans\\Composer\\PatchEvent' => __DIR__ . '/..' . '/cweagans/composer-patches/src/PatchEvent.php',
-        'cweagans\\Composer\\PatchEvents' => __DIR__ . '/..' . '/cweagans/composer-patches/src/PatchEvents.php',
-        'cweagans\\Composer\\Patches' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patches.php',
+        'cweagans\\Composer\\Capability\\CommandProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/CommandProvider.php',
+        'cweagans\\Composer\\Capability\\Downloader\\BaseDownloaderProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Downloader/BaseDownloaderProvider.php',
+        'cweagans\\Composer\\Capability\\Downloader\\CoreDownloaderProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Downloader/CoreDownloaderProvider.php',
+        'cweagans\\Composer\\Capability\\Downloader\\DownloaderProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Downloader/DownloaderProvider.php',
+        'cweagans\\Composer\\Capability\\Patcher\\BasePatcherProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Patcher/BasePatcherProvider.php',
+        'cweagans\\Composer\\Capability\\Patcher\\CorePatcherProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Patcher/CorePatcherProvider.php',
+        'cweagans\\Composer\\Capability\\Patcher\\PatcherProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Patcher/PatcherProvider.php',
+        'cweagans\\Composer\\Capability\\Resolver\\BaseResolverProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Resolver/BaseResolverProvider.php',
+        'cweagans\\Composer\\Capability\\Resolver\\CoreResolverProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Resolver/CoreResolverProvider.php',
+        'cweagans\\Composer\\Capability\\Resolver\\ResolverProvider' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Capability/Resolver/ResolverProvider.php',
+        'cweagans\\Composer\\Command\\DoctorCommand' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Command/DoctorCommand.php',
+        'cweagans\\Composer\\Command\\PatchesCommandBase' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Command/PatchesCommandBase.php',
+        'cweagans\\Composer\\Command\\RelockCommand' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Command/RelockCommand.php',
+        'cweagans\\Composer\\Command\\RepatchCommand' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Command/RepatchCommand.php',
+        'cweagans\\Composer\\ConfigurablePlugin' => __DIR__ . '/..' . '/cweagans/composer-configurable-plugin/src/ConfigurablePlugin.php',
+        'cweagans\\Composer\\Downloader' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Downloader.php',
+        'cweagans\\Composer\\Downloader\\ComposerDownloader' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Downloader/ComposerDownloader.php',
+        'cweagans\\Composer\\Downloader\\DownloaderBase' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Downloader/DownloaderBase.php',
+        'cweagans\\Composer\\Downloader\\DownloaderInterface' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Downloader/DownloaderInterface.php',
+        'cweagans\\Composer\\Downloader\\Exception\\HashMismatchException' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Downloader/Exception/HashMismatchException.php',
+        'cweagans\\Composer\\Event\\PatchEvent' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Event/PatchEvent.php',
+        'cweagans\\Composer\\Event\\PatchEvents' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Event/PatchEvents.php',
+        'cweagans\\Composer\\Event\\PluginEvent' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Event/PluginEvent.php',
+        'cweagans\\Composer\\Event\\PluginEvents' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Event/PluginEvents.php',
+        'cweagans\\Composer\\Locker' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Locker.php',
+        'cweagans\\Composer\\Patch' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patch.php',
+        'cweagans\\Composer\\PatchCollection' => __DIR__ . '/..' . '/cweagans/composer-patches/src/PatchCollection.php',
+        'cweagans\\Composer\\Patcher' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher.php',
+        'cweagans\\Composer\\Patcher\\FreeformPatcher' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher/FreeformPatcher.php',
+        'cweagans\\Composer\\Patcher\\GitInitPatcher' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher/GitInitPatcher.php',
+        'cweagans\\Composer\\Patcher\\GitPatcher' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher/GitPatcher.php',
+        'cweagans\\Composer\\Patcher\\PatcherBase' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher/PatcherBase.php',
+        'cweagans\\Composer\\Patcher\\PatcherInterface' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Patcher/PatcherInterface.php',
+        'cweagans\\Composer\\Plugin\\Patches' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Plugin/Patches.php',
+        'cweagans\\Composer\\Resolver' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver.php',
+        'cweagans\\Composer\\Resolver\\Dependencies' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver/Dependencies.php',
+        'cweagans\\Composer\\Resolver\\PatchesFile' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver/PatchesFile.php',
+        'cweagans\\Composer\\Resolver\\ResolverBase' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver/ResolverBase.php',
+        'cweagans\\Composer\\Resolver\\ResolverInterface' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver/ResolverInterface.php',
+        'cweagans\\Composer\\Resolver\\RootComposer' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Resolver/RootComposer.php',
+        'cweagans\\Composer\\Util' => __DIR__ . '/..' . '/cweagans/composer-patches/src/Util.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit6aa05a8c20df5e0c4957114609a5ef85::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1aa5315a61e42940d6797dd53af8e784::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1aa5315a61e42940d6797dd53af8e784::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit1aa5315a61e42940d6797dd53af8e784::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -2,10 +2,10 @@
 **Contributors:** [forum1](https://profiles.wordpress.org/forum1/), [mgibbs189](https://profiles.wordpress.org/mgibbs189/), [elvismdev](https://profiles.wordpress.org/elvismdev/), [mickaelperrin](https://profiles.wordpress.org/mickaelperrin/), [alfreddatakillen](https://profiles.wordpress.org/alfreddatakillen/), [joshlevinson](https://profiles.wordpress.org/joshlevinson/), [jmslbam](https://profiles.wordpress.org/jmslbam/), [gbeezus](https://profiles.wordpress.org/gbeezus/), [tnolte](https://profiles.wordpress.org/tnolte/), [dsteersf1](https://profiles.wordpress.org/dsteersf1/), [jgleisner](https://profiles.wordpress.org/jgleisner/)  
 **Tags:** configuration, settings, configuration management, features, wordpress, wp-cli  
 **Donate link:** http://forumone.com/  
-**Requires at least:** 4.7  
-**Tested up to:** 6.6.2  
-**Requires PHP:** 7.4  
-**Stable tag:** 2.0.1  
+**Requires at least:** 5.0  
+**Tested up to:** 7.0  
+**Requires PHP:** 8.2  
+**Stable tag:** 3.0.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 

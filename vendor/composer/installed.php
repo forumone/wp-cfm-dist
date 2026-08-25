@@ -3,7 +3,7 @@
         'name' => 'forumone/wp-cfm',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '17f904956dfec07e04d6f5a2ab2d5f22a4a37488',
+        'reference' => '93ea6946820b8fecb2514e4ce425a7ef12f60716',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'forumone/wp-cfm' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '17f904956dfec07e04d6f5a2ab2d5f22a4a37488',
+            'reference' => '93ea6946820b8fecb2514e4ce425a7ef12f60716',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
